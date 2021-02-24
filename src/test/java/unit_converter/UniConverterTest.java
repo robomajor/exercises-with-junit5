@@ -1,4 +1,4 @@
-package learning;
+package unit_converter;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

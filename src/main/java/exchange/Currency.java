@@ -1,4 +1,4 @@
-package example.exchange;
+package exchange;
 
 public enum Currency {
     PLN,
