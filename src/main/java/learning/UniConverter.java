@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 public class UniConverter {
     public static void main(String[] args) {
-        Kilogram fiveKilograms = new Kilogram(BigDecimal.valueOf(5));
-        Pound sevenPounds = new Pound(BigDecimal.valueOf(7));
+        Kilogram fiveKilograms = new Kilogram(new BigDecimal(5));
+        Pound sevenPounds = new Pound(new BigDecimal(7));
 
         Pound fiveKilogramsToPounds = fiveKilograms.toPounds();
         Kilogram sevenPoundsToKilograms = sevenPounds.toKilograms();

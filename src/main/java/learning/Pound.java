@@ -10,7 +10,7 @@ public class Pound implements WeightUnit{
 
     public Pound(BigDecimal value) {
         if (BigDecimal.ZERO.compareTo(value) > 0) {
-            throw new IllegalArgumentException("weight can't be negative!");
+            throw new IllegalArgumentException("Weight can't be negative!");
         }
         this.value = value.setScale(SCALE, ROUNDING_MODE);
     }
